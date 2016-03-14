@@ -86,4 +86,85 @@ $$
 
 # Our Model
 
-# Summery
+\usetikzlibrary{automata,positioning}
+\begin{center}
+\begin{tikzpicture}
+\tikzset{block/.style={rectangle, fill=teal!20, rounded corners, align=center}};
+\node [block, fill=olive!20] (phi) {$\phi$};
+\node [block, above left=2cm and 0.5cm of phi] (s) {$u_R,d_R,Q_L,e_R,L_L$\\$H,N_R$\\{}};
+\node [below=0cm of s, anchor=south, blue!40!white] (psi) {\mbox{\boldmath $\psi$}};
+\node [block, above right=2cm and 0.5cm of phi] (p) {$u_R',d_R',Q_L',e_R',L_L'$\\$H',N_R'$\\{}};
+\node [below=0cm of p, anchor=south, blue!40!white] (psip) {\mbox{\boldmath $\psi'$}};
+\draw [->, ultra thick, blue!40!white] (phi) -- (psi);
+\draw [->, ultra thick, blue!40!white] (phi) -- (psip);
+\node [above=0.3cm of phi, fill=olive!10] {PQ symmetry};
+\draw [<->, ultra thick] (s) -- (p);
+\node [above=2.3 cm of phi] {$\mathbb Z_2$};
+\end{tikzpicture}
+\end{center}
+
+# Breakdown of $\mathbb Z_2$
+* $\mathbb Z_2$ must be spontaneously broken
+    * Otherwise the axion couldn't be heavy
+* Which parameters do we change using spurion $\sigma$?
+
+# Heavy Axion Mass
+* Recall
+$$
+{m_a}^2 \simeq \frac{m_q' \Lambda'^3}{{f_a}^2}
+$$
+* We have to increase $m_q' \propto v'$ and $\Lambda'$
+    * For $\Lambda'$, we introduce color charged particles, $\Phi, \Phi'$, and change their masses.
+
+# Cosmological Properties 
+* $\gamma'$ is massless 
+    * The axion must decouple before QCD PT
+* Seesaw mechanism in $\nu'$ is forbidden
+    * $\nu'$s have large Dirac mass
+    
+# Stable Particle
+* Two of the followings are stable
+
+|       |$e'$|$\nu'$|${\pi^\pm}'$|$p'$|
+|:-----:|:--:|:----:|:----------:|:--:|
+|$B'-L'$|$-1$|$-1$  | $0$        |$+1$|
+|$Q'$   |$-1$|$0$   |$\pm1$      |$+1$|
+
+* $\nu'$ must be unstable
+
+# Low Energy Spectrum
+Axion $a$\phantom{hogehogehogehogehoge}
+: $m_a\gtrsim 400\,\text{MeV}$
+
+Vector like quark $\psi, \psi'$
+: $m_\psi=\frac{1}{\sqrt2}gf_a\gtrsim 900\,\text{GeV}$
+
+Dilaton $s$\phantom{hogehogehoge}
+: $m_s=\sqrt{2\lambda}f_a$\tikz[baseline=(x.base)] {
+  \node (x) {$\gtrsim \mathcal O(100)\,\text{GeV}$};\pause
+  \node [rectangle, fill=teal!20, minimum width={100pt}] {$\simeq 750\,\text{GeV}$??}
+}
+
+# Effective Lagrangian
+
+\begin{eqnarray*}
+\mathcal L &=& \frac{s}{f_a}\partial a\partial a + 
+N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
+ N_2\frac{\alpha}{8\pi}\frac{s}{f_a} F^{(\prime)}F^{(\prime)} \\
+ &&+N_1\frac{\alpha_s}{8\pi}\frac{a}{f_a} G\tilde{G}+
+ N_2\frac{\alpha}{8\pi}\frac{a}{f_a} F^{(\prime)}\tilde{F}^{(\prime)} \\
+\end{eqnarray*}
+
+* Since $f_a$ is low and higher dim. op.s destroy domain walls, $N_1\ne1$ is allowed
+
+# Dilaton Decay
+* Obviously, $\displaystyle\frac{s}{f_a}\partial a\partial a$ is the strongest
+* Almost no $s\to2\gamma^{(\prime)}$ decay
+* Is it failed? \pause - **No, of course!**
+
+# Photons and Photon Jets
+* ECAL can't count the number of $\gamma$
+    * Use "$s\to2a$, $a\to2\text{ collimated $\gamma$}$" mode \pause
+    * TRT, a tracker just before ECAL, is able to count converted photons, although $4\gamma$ seems still allowed
+
+# Summary
