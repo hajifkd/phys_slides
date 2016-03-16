@@ -125,10 +125,10 @@ $$
 # Stable Particle
 * Two of the followings are stable
 
-|       |$e'$|$\nu'$|${\pi^\pm}'$|$p'$|
-|:-----:|:--:|:----:|:----------:|:--:|
-|$B'-L'$|$-1$|$-1$  | $0$        |$+1$|
-|$Q'$   |$-1$|$0$   |$\pm1$      |$+1$|
+|       |$e'$|$\nu'$|${\pi^\pm}'$|($p'$)|
+|:-----:|:--:|:----:|:----------:|:----:|
+|$B'-L'$|$-1$|$-1$  | $0$        |$+1$  |
+|$Q'$   |$-1$|$0$   |$\pm1$      |$+1$  |
 
 * $\nu'$ must be unstable
 
@@ -142,7 +142,7 @@ Vector like quark $\psi, \psi'$
 Dilaton $s$\phantom{hogehogehoge}
 : $m_s=\sqrt{2\lambda}f_a$\tikz[baseline=(x.base)] {
   \node (x) {$\gtrsim \mathcal O(100)\,\text{GeV}$};\pause
-  \node [rectangle, fill=teal!20, minimum width={100pt}] {$\simeq 750\,\text{GeV}$??}
+  \node [rectangle, fill=teal!20, minimum width={100pt}] {$\simeq 750\,\text{GeV}$??};
 }
 
 # Effective Lagrangian
@@ -160,11 +160,45 @@ N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
 # Dilaton Decay
 * Obviously, $\displaystyle\frac{s}{f_a}\partial a\partial a$ is the strongest
 * Almost no $s\to2\gamma^{(\prime)}$ decay
-* Is it failed? \pause - **No, of course!**
+* Is it failed? \pause - **No!**
 
 # Photons and Photon Jets
 * ECAL can't count the number of $\gamma$
     * Use "$s\to2a$, $a\to2\text{ collimated $\gamma$}$" mode \pause
     * TRT, a tracker just before ECAL, is able to count converted photons, although $4\gamma$ seems still allowed
 
+# Axion Decay
+## Lagrangian
+$$
+\mathcal L_a = N_1\frac{\alpha_s}{8\pi}\frac{a}{f_a} G\tilde{G}+ 
+N_2\frac{\alpha}{8\pi}\frac{a}{f_a} F^{(\prime)}\tilde{F}^{(\prime)} $$
+
+* We need large BR
+    * $\text{BR}(s\to4\gamma)=\text{BR}(a\to2\gamma)^{\color{teal}2}$
+* $a\mbox-G\mbox-G$ coupling looks too strong
+
+# Is Large BR Possible?
+## Two possibility
+* $m_a < 3m_\pi$, the threshold of $a\to2g$
+* Use the mixings with mesons
+
+# $m_a < 3m_\pi$
+* An axion lives too longer
+* Typically, 
+$$
+\gamma\Gamma^{-1} \sim \frac{100\,\text{GeV}}{m_a}\left(\frac{4\pi}{\alpha}\right)^2 \frac{{f_a}^2}{{m_a}^3}
+\gtrsim \mathcal O(1)\,\text{m}
+$$
+
+# Mixings with Mesons
+* $a\to3\pi$ is suppressed by the phase factor
+
+
+\begin{center}
+\includegraphics[width=8cm]{width.pdf}
+\end{center}
+
 # Summary
+* The heavy axion is possible
+* The diphoton excess can be explained as the dilaton
+    * Photon jets may be interesting
