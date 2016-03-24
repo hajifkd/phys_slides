@@ -151,7 +151,7 @@ N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
 # Dilaton Decay
 * Obviously, $\displaystyle\frac{s}{f_a}\partial a\partial a$ is the strongest
 * Almost no $s\to2\gamma^{(\prime)}$ decay
-* Is it failed? \pause - **No!**
+* Does it fail? \pause - **No!**
 
 # Photons and Photon Jets
 * ECAL can't count the number of $\gamma$
