@@ -53,7 +53,7 @@ even for the WW axion
 # Realizing a Heavy Axion
 * (Rubakov, 1997) suggested *a consistent way* to achieve a heavy axion 
 
-\tiny Rubakov 1997; Berezhiani, Gianfagna and Giannotti 2000\newline Hook 2014, HF, Harigaya, Ibe and Yanagida 2015, Albaid, Dine and Draper 2015
+\tiny Rubakov 1997; Berezhiani, Gianfagna and Giannotti 2000\newline Hook 2014, HF, Harigaya, Ibe and Yanagida 2015, Albaid, Dine and Draper 2015\newline (Gherghetta, Nagata and Shifman 2016)
 
 # How to Make an Axion Heavier?
 * Another gauge theory is needed 
@@ -113,6 +113,7 @@ $$
     * $\nu'$s have large Dirac mass
     * No fine-tuning: $\sigma_{\mathbb Z_2} = \sigma_{B'-L'}^2/M_\text{Pl}$
     
+<!---
 # Stable Particle
 * Two of the followings are stable
 
@@ -122,6 +123,7 @@ $$
 |$Q'$   |$-1$|$0$   |$\pm1$      |$+1$  |
 
 * $\nu'$ must be unstable
+-->
 
 # Low Energy Spectrum
 Axion $a$\phantom{hogehogehogehogehoge}
@@ -136,6 +138,7 @@ Dilaton $s$\phantom{hogehogehoge}
   \node [rectangle, rounded corners, fill=teal!20, minimum width={100pt}] {$\simeq 750\,\text{GeV}$??};
 }
 
+<!---
 # Effective Lagrangian
 
 \begin{eqnarray*}
@@ -147,6 +150,7 @@ N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
 \end{eqnarray*}
 
 * Since higher dim. op.s destroy domain walls, $N_1\ne1$ is allowed
+-->
 
 # Dilaton Decay
 * Obviously, $\displaystyle\frac{s}{f_a}\partial a\partial a$ is the strongest
@@ -201,6 +205,7 @@ N_2\frac{\alpha}{8\pi}\frac{a}{f_a} F^{(\prime)}\tilde{F}^{(\prime)} $$
 * $m_a < 3m_\pi$, the threshold of $a\to2g$
 * Use the mixings with mesons
 
+<!---
 # $m_a < 3m_\pi$
 * An axion lives too longer
 * Typically, 
@@ -208,6 +213,7 @@ $$
 \gamma\Gamma^{-1} \sim \frac{100\,\text{GeV}}{m_a}\left(\frac{4\pi}{\alpha}\right)^2 \frac{{f_a}^2}{{m_a}^3}
 \gtrsim \mathcal O(1)\,\text{m}
 $$
+-->
 
 # Mixings with Mesons
 * The phase space suppresses $a\to3\pi$
