@@ -14,7 +14,7 @@ $$
 |\theta| \lesssim 10^{-10}
 $$
 
-# Peccei-Quinn mechanism \tiny Peccei and Quinn, 1977
+# Peccei-Quinn mechanism \tiny Peccei & Quinn, 1977
 ## $\text{U}(1)_\text{PQ}$ Symmetry
 $$
 q_L\to e^{i\alpha} q_L,\ \ \theta\to\theta+2T(R)\alpha
