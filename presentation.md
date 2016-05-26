@@ -181,6 +181,7 @@ N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
 \end{tikzpicture}
 \end{center}
 
+<!---
 # How to Distinguish the Jet
 * Some fraction of photons is converted into $e^+e^-$ in the detectors
 * Several properties are different
@@ -189,6 +190,7 @@ N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
     
 \tiny Draper _et al._ 2012, Ellis _et al._ 2013, ...; \newline
 Dasgupta _et al._ 2016, HF, Ibe, Nojiri in preparation
+-->
 
 # Axion Decay
 ## Lagrangian
