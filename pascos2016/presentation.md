@@ -1,6 +1,6 @@
 % Possibility of the Heavy QCD Axion \hfil\tiny arXiv:1504.06084, 1602.07909, xxxx.xxxxx
 % Hajime Fukuda (Kavli IPMU)
-% \today <!--- pandoc -t beamer -V theme:metropolis -V fontsize:17pt -o presentation.pdf presentation.md -H <(echo '\usefonttheme{professionalfonts}\usepackage{txfonts}') -->
+% \today <!--- pandoc -t beamer -V theme:metropolis -V fontsize:17pt -o presentation.pdf presentation.md -H ../header -->
 # Strong CP Problem
 * QCD should break CP symmetry
 $$
