@@ -1,4 +1,4 @@
-% Possibility of the Heavy QCD Axion \hfil\tiny arXiv:1504.06084, 1602.07909, xxxx.xxxxx
+% A Model of Heavy QCD Axion and the LHC Signature \hfil\tiny arXiv:1504.06084, 1602.07909, 1607.01936
 % Hajime Fukuda (Kavli IPMU)
 % \today <!--- pandoc -t beamer -V theme:metropolis -V fontsize:17pt -o presentation.pdf presentation.md -H ../header -->
 # Strong CP Problem
@@ -19,14 +19,14 @@ $$
 $$
 indicates heavier $m_a$ is difficult.
 
-# Higher Dimensional Operator?
-* Why not?
+# Higher Dimensional Operator
 $$
 \Delta \mathcal L = c\frac{\phi^5}{M_\text{Pl}}
 $$
 $$
 \Rightarrow\Delta \theta \simeq c\frac{{f_a}^3}{M_\text{Pl}{m_a}^2} \gg 10^{-10},
 $$
+indicates heavier $m_a$ is preferred!
 
 # Realizing a Heavy Axion
 * (Rubakov, 1997) suggested *a consistent way* to achieve a heavy axion 
@@ -93,14 +93,22 @@ Dilaton $s$\phantom{hogehogehoge}
 \tiny or yet another diphoton...
 \end{textblock}
 
-# Dilaton Decay
-* Obviously, $\displaystyle\frac{s}{f_a}\partial a\partial a$ is the strongest
-* Almost no $s\to2\gamma^{(\prime)}$ decay
-* Does it fail? \pause - **No!**
+# Effective Lagrangian
+
+\begin{eqnarray*}
+\mathcal L &=& \frac{s}{f_a}\partial a\partial a + 
+N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
+ N_2\frac{\alpha}{8\pi}\frac{s}{f_a} F^{(\prime)}F^{(\prime)} \\
+ &&+N_1\frac{\alpha_s}{8\pi}\frac{a}{f_a} G\tilde{G}+
+ N_2\frac{\alpha}{8\pi}\frac{a}{f_a} F^{(\prime)}\tilde{F}^{(\prime)} \\
+\end{eqnarray*}
+
+* $s\partial a\partial a$ is the strongest
+* How does it look?
 
 # Photons and Photon Jets
 * ECAL can't count the number of $\gamma$
-    * Use "$s\to2a$, $a\to2\text{ collinear $\gamma$}$" mode
+* The decay looks like "diphoton"!
 <!---    * TRT, a tracker just before ECAL, is able to count converted photons, although $4\gamma$ seems still allowed-->
 
 
@@ -136,7 +144,7 @@ Dilaton $s$\phantom{hogehogehoge}
 \end{textblock}
 
 \begin{textblock}{3}(6.5,7.5)
-\fontsize{6.5pt}{0pt}\selectfont HF, Ibe, Jinnouchi and Nojiri, arXiv:xxxx.xxxxx
+\fontsize{6.5pt}{0pt}\selectfont HF, Ibe, Jinnouchi and Nojiri, arXiv:1607.01936
 \end{textblock}
  
 \begin{textblock}{3}(6.2,6)
