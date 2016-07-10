@@ -31,7 +31,8 @@ indicates heavier $m_a$ is preferred!
 # Realizing a Heavy Axion
 * (Rubakov, 1997) suggested *a consistent way* to achieve a heavy axion 
 
-\tiny Rubakov 1997; Berezhiani, Gianfagna and Giannotti 2000\newline Hook 2014, HF, Harigaya, Ibe and Yanagida 2015, Albaid, Dine and Draper 2015\newline (Gherghetta, Nagata and Shifman 2016)
+\tiny Rubakov 1997; Berezhiani, Gianfagna and Giannotti 2000\newline Hook 2014, HF, Harigaya, Ibe and Yanagida 2015, Albaid, Dine and Draper 2015\newline
+(Kobakhidze 2016), (Gherghetta, Nagata and Shifman 2016)
 
 # How to Make an Axion Heavier?
 * Another gauge theory is needed 
@@ -76,6 +77,10 @@ $$
 \end{tikzpicture}
 \end{center}
 
+\begin{textblock}{3}(6.5,7.2)
+\fontsize{6.5pt}{0pt}\selectfont HF, Harigaya, Ibe and Yanagida, arXiv:1504.06084
+\end{textblock}
+
 # Low Energy Spectrum
 Axion $a$\phantom{hogehogehogehogehoge}
 : $m_a\gtrsim 400\,\text{MeV}$
@@ -89,8 +94,8 @@ Dilaton $s$\phantom{hogehogehoge}
   \node [rectangle, rounded corners, fill=teal!20, minimum width={100pt}] {$\simeq 750\,\text{GeV}$??};
 }
 
-\begin{textblock}{3}(6.5,7.2)
-\tiny or yet another diphoton...
+\begin{textblock}{6}(4.8,7.2)
+\tiny or, "let us consider the LHC signal of the dilaton"...
 \end{textblock}
 
 # Effective Lagrangian
@@ -129,6 +134,21 @@ N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
 \draw [->, thick] (a2) -- (g21);
 \end{tikzpicture}
 \end{center}
+
+# Difference b/w $\gamma$s and $\gamma$-jets
+* Some $\gamma$s are "converted"
+
+\phantom{
+\includegraphics[width=5.5cm]{ePairPt.pdf}
+}
+
+\begin{textblock}{4}(1,3.5)
+\includegraphics[width=3.5\TPHorizModule]{CMSRadLength.pdf}
+\end{textblock}
+
+\begin{textblock}{4}(5,3.5)
+\includegraphics[width=3.5\TPHorizModule]{CMSRadLength.pdf}
+\end{textblock}
 
 # How to Distinguish the Jet
 * We simulate trackers in CMS.
@@ -177,5 +197,5 @@ N_2\frac{\alpha}{8\pi}\frac{a}{f_a} F^{(\prime)}\tilde{F}^{(\prime)} $$
 
 # Summary
 * The heavy axion is plausible
-* The diphoton excess may be explained as the dilaton in our model
+* The dilaton may appear at the LHC as a "di-photon-jet" signal.
 * "Diphoton" and "Di-photon-jet" is distinguishable using $p_T$
