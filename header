@@ -1,3 +1,5 @@
 \usepackage[overlay,absolute]{textpos}
+\usepackage{cancel}
+\usepackage{amsmath,amssymb}
 \usefonttheme{professionalfonts}\usepackage{txfonts}
 \TPGrid[10 mm,8 mm]{9}{8}

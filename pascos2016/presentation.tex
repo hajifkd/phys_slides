@@ -1,0 +1,433 @@
+\documentclass[17pt,ignorenonframetext,]{beamer}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+\usetheme{metropolis}
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\newif\ifbibliography
+
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \let\insertsectionnumber\relax
+    \let\sectionname\relax
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+\usefonttheme{professionalfonts}\usepackage{txfonts}
+
+\title{Possibility of the Heavy QCD Axion \hfil\tiny arXiv:1504.06084,
+1602.07909}
+\author{Hajime Fukuda (Kavli IPMU) \newline\scriptsize in collabolation with:
+C.W. Chiang, K. Harigaya, M. Ibe and T.T. Yanagida}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Strong CP Problem}
+
+\begin{itemize}
+\tightlist
+\item
+  QCD should break CP symmetry \[
+  \theta = \theta_\text{YM} + \arg\det(Y_uY_d)
+  \]
+\item
+  However, the violation looks very small \[
+  |\theta| \lesssim 10^{-10}
+  \]
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Peccei-Quinn mechanism \tiny Peccei \& Quinn, 1977}
+
+\begin{block}{\(\text{U}(1)_\text{PQ}\) Symmetry}
+
+\[
+q_L\to e^{i\alpha} q_L,\ \ \theta\to\theta+2T(R)\alpha
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  \(\text{U}(1)_\text{PQ}\) must be broken at \(f_a\) and a pseudo NG
+  Boson \(a\) appears\\
+  \hfill \tiny Weinberg 1978, Wilczek 1978
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Their Original Model}
+
+\begin{itemize}
+\tightlist
+\item
+  The VEVs of 2HDM break EW gauge group and \(\text{U}(1)_\text{PQ}\)
+  simultaneously
+\item
+  It's simple and minimal, but experimentally excluded
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Which Direction?}
+
+\begin{itemize}
+\tightlist
+\item
+  There are roughly two ways to achieve the PQ mechanism
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Larger \(f_a\), \emph{invisible axion}
+  \item
+    Heavier \(m_a\), \emph{heavy axion}
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Axion Mass and Decay Constant}
+
+\begin{block}{Axion Mass}
+
+\[
+{m_a}^2 \simeq \frac{m_q \Lambda^3}{{f_a}^2}
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  Heavier \(m_a\) with sufficiently large \(f_a\) is hence difficult
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Larger \(f_a\) isn't Easy, Either}
+
+\begin{itemize}
+\tightlist
+\item
+  Why does no higher dim. op. exist? \[
+  \Delta \mathcal L = c\frac{\phi^5}{M_\text{Pl}}
+  \] \[
+  \Rightarrow\Delta \theta \simeq c\frac{{f_a}^3}{M_\text{Pl}{m_a}^2} \gg 10^{-10},
+  \] even for the WW axion
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Realizing a Heavy Axion}
+
+\begin{itemize}
+\tightlist
+\item
+  (Rubakov, 1997) suggested \emph{a consistent way} to achieve a heavy
+  axion
+\end{itemize}
+
+\tiny Rubakov 1997; Berezhiani, Gianfagna and Giannotti
+2000\newline Hook 2014, HF, Harigaya, Ibe and Yanagida 2015, Albaid,
+Dine and Draper 2015\newline (Gherghetta, Nagata and Shifman 2016)
+
+\end{frame}
+
+\begin{frame}{How to Make an Axion Heavier?}
+
+\begin{itemize}
+\tightlist
+\item
+  Another gauge theory is needed
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+\fill [gray] (10, -1.75) circle (0.25);
+\draw [olive, ultra thick]  (7, -1) sin (8,0) cos (9,-1) sin (10,-2) cos (11,-1) sin (12, 0) cos (13,-1);
+\draw [teal, ultra thick] (7, 0) sin (8,2) cos (9, 0) sin (10, -2) cos (11, 0) sin (12, 2) cos (13, 0);\pause
+\draw [<->, ultra thick] (9.5, -2.3) -- (10.5, -2.3);
+\draw (10, -2.7) node {Then how can we align the two $\theta$s?};
+\end{tikzpicture}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Copy of SM}
+
+\[
+\theta = \theta_\text{YM} + \tikz[baseline=(x.base)] {
+  \node(x)[rectangle, fill=teal!20, rounded corners] {$\arg\det(Y_uY_d)$};
+  }
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  \(\theta'\) must also have Yukawa sector
+\item
+  Thus, we need a complete copy of SM
+
+  \begin{itemize}
+  \tightlist
+  \item
+    We assume \(\mathbb Z_2\) parity, which is spontaneously broken
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Our Model}
+
+\usetikzlibrary{automata,positioning}
+
+\begin{center}
+\begin{tikzpicture}
+\tikzset{block/.style={rectangle, fill=teal!20, rounded corners, align=center}};
+\node [block, fill=olive!20] (phi) {$\phi$};
+\node [block, above left=2cm and 0.5cm of phi] (s) {$u_R,d_R,Q_L,e_R,L_L$\\$H,N_R$\\{}};
+\node [below=0cm of s, anchor=south, blue!40!white] (psi) {\mbox{\boldmath $\psi$}};
+\node [block, above right=2cm and 0.5cm of phi] (p) {$u_R',d_R',Q_L',e_R',L_L'$\\$H',N_R'$\\{}};
+\node [below=0cm of p, anchor=south, blue!40!white] (psip) {\mbox{\boldmath $\psi'$}};
+\draw [->, ultra thick, blue!40!white] (phi) -- (psi);
+\draw [->, ultra thick, blue!40!white] (phi) -- (psip);
+\node [above=0.3cm of phi, fill=olive!10] {PQ symmetry};
+\draw [<->, ultra thick] (s) -- (p);
+\node [above=2.3 cm of phi] {$\mathbb Z_2$};
+\end{tikzpicture}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Use of spontaneous \(\mathbb Z_2\) breaking}
+
+\begin{itemize}
+\tightlist
+\item
+  Recall \[
+  {m_a}^2 \simeq \frac{m_q' \Lambda'^3}{{f_a}^2}
+  \]
+\item
+  We have to increase \(m_q' \propto v'\) and \(\Lambda'\)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    For \(\Lambda'\), we introduce color charged particles and change
+    their masses.
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Cosmological Properties}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\gamma'\) is massless
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The axion must decouple before QCD PT
+  \end{itemize}
+\item
+  Seesaw mechanism in \(\nu'\) is forbidden
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(\nu'\)s have large Dirac mass
+  \item
+    No fine-tuning:
+    \(\sigma_{\mathbb Z_2} = \sigma_{B'-L'}^2/M_\text{Pl}\)
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Low Energy Spectrum}
+
+\begin{description}
+\tightlist
+\item[Axion \(a\)\phantom{hogehogehogehogehoge}]
+\(m_a\gtrsim 400\,\text{MeV}\)
+\item[Vector like quark \(\psi, \psi'\)]
+\(m_\psi=\frac{1}{\sqrt2}gf_a\gtrsim 900\,\text{GeV}\)
+\item[Dilaton \(s\)\phantom{hogehogehoge}]
+\(m_s=\sqrt{2\lambda}f_a\)\tikz[baseline=(x.base)] {
+  \node (x) {$\gtrsim \mathcal O(100)\,\text{GeV}$};\pause
+  \node [rectangle, rounded corners, fill=teal!20, minimum width={100pt}] {$\simeq 750\,\text{GeV}$??};
+}
+\end{description}
+
+\end{frame}
+
+\begin{frame}{Dilaton Decay}
+
+\begin{itemize}
+\tightlist
+\item
+  Obviously, \(\displaystyle\frac{s}{f_a}\partial a\partial a\) is the
+  strongest
+\item
+  Almost no \(s\to2\gamma^{(\prime)}\) decay
+\item
+  Does it fail? \pause - \textbf{No!}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Photons and Photon Jets}
+
+\begin{itemize}
+\tightlist
+\item
+  ECAL can't count the number of \(\gamma\)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Use ``\(s\to2a\), \(a\to2\text{ collinear $\gamma$}\)'' mode 
+  \end{itemize}
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+\node [circle, white, fill=teal] (s) at (5, 0) {$s$};
+\node [circle, white, fill=orange!90!black] (a1) at (3.5, -0.5) {$a$};
+\node [circle, white, fill=red!90!black] (g11) at (3.5-1.72, -0.5-1.14) {$\gamma$};
+\node [circle, white, fill=red!90!black] (g12) at (3.5-2.05, -0.5+0.195) {$\gamma$};
+\node [circle, white, fill=orange!90!black] (a2) at (6.5, 0.5) {$a$};
+\node [circle, white, fill=red!90!black] (g21) at (6.5+1.72, 0.5+1.14) {$\gamma$};
+\node [circle, white, fill=red!90!black] (g22) at (6.5+2.05, 0.5-0.195) {$\gamma$};
+\draw [->, ultra thick] (s) -- (a1);
+\draw [->, ultra thick] (s) -- (a2);
+\draw [->, thick] (a1) -- (g12);
+\draw [->, thick] (a1) -- (g11);
+\draw [->, thick] (a2) -- (g22);
+\draw [->, thick] (a2) -- (g21);
+\end{tikzpicture}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Axion Decay}
+
+\begin{block}{Lagrangian}
+
+\[
+\mathcal L_a = N_1\frac{\alpha_s}{8\pi}\frac{a}{f_a} G^{(\prime)}\tilde{G}^{(\prime)}+ 
+N_2\frac{\alpha}{8\pi}\frac{a}{f_a} F^{(\prime)}\tilde{F}^{(\prime)} \]
+
+\begin{itemize}
+\tightlist
+\item
+  We need large BR
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(\text{BR}(s\to4\gamma)=\text{BR}(a\to2\gamma)^{\color{red!90!black}2}\)
+  \end{itemize}
+\item
+  \(a\mbox-G\mbox-G\) coupling looks too strong
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Is Large BR Possible?}
+
+\begin{block}{Two possibility}
+
+\begin{itemize}
+\tightlist
+\item
+  \(m_a < 3m_\pi\), the threshold of \(a\to2g\)
+\item
+  Use the mixings with mesons
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Mixings with Mesons}
+
+\begin{itemize}
+\tightlist
+\item
+  The phase space suppresses \(a\to3\pi\)
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=8cm]{width.pdf}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Summary}
+
+\begin{itemize}
+\tightlist
+\item
+  The heavy axion is possible
+\item
+  We need a complete copy of SM
+\item
+  The diphoton excess can be explained as the dilaton using our model
+\end{itemize}
+
+\end{frame}
+
+\end{document}

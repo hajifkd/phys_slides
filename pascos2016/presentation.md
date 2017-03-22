@@ -1,6 +1,10 @@
 % A Model of Heavy QCD Axion and the LHC Signature \hfil\tiny arXiv:1504.06084, 1602.07909, 1607.01936
 % Hajime Fukuda (Kavli IPMU)
 % \today <!--- pandoc -t beamer -V theme:metropolis -V fontsize:17pt -o presentation.pdf presentation.md -H ../header -->
+# Outline
+1. Heavy axion - Why and How?
+1. Our model and the LHC signature
+
 # Strong CP Problem
 * QCD should break CP symmetry
 $$
@@ -142,8 +146,8 @@ N_1\frac{\alpha_s}{8\pi}\frac{s}{f_a} GG+
 \includegraphics[width=5.5cm]{ePairPt.pdf}
 }
 
-\begin{textblock}{4}(1,3.5)
-\includegraphics[width=3.5\TPHorizModule]{CMSRadLength.pdf}
+\begin{textblock}{4}(1,4.5)
+\includegraphics[width=3.5\TPHorizModule]{cms_slice.jpg}
 \end{textblock}
 
 \begin{textblock}{4}(5,3.5)
