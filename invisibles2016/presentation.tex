@@ -1,0 +1,154 @@
+\documentclass[17pt,ignorenonframetext,]{beamer}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+\usetheme{metropolis}
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\newif\ifbibliography
+
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \let\insertsectionnumber\relax
+    \let\sectionname\relax
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+\usepackage[overlay,absolute]{textpos}
+\usefonttheme{professionalfonts}\usepackage{txfonts}
+\TPGrid[10 mm,8 mm]{9}{8}
+
+\title{A Model of Heavy QCD Axion and the LHC Signature
+\hfil\tiny arXiv:1504.06084, 1602.07909, 1607.01936}
+\author{Hajime Fukuda (Kavli IPMU)}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{HOGEHOGE}
+
+\begin{frame}{Strong CP Problem}
+
+\begin{itemize}
+\tightlist
+\item
+  QCD should break CP symmetry \[
+  \theta = \theta_\text{YM} + \arg\det(Y_uY_d)
+  \]
+\item
+  The PQ mechanism can set \(\theta=0\).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The original model has been excluded.
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{What is the Alternative?}
+
+\begin{itemize}
+\tightlist
+\item
+  Roughly, two choices:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Larger \(f_a\) / Heavier \(m_a\)
+  \end{itemize}
+\item
+  Higher Dimensional Operator \[
+  \Delta \theta \sim c\frac{{f_a}^3}{M_\text{Pl}{m_a}^2} \gg 10^{-10},
+  \] indicates heavier \(m_a\) is preferred!
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{How to Make an Axion Heavier?}
+
+\begin{itemize}
+\tightlist
+\item
+  Another gauge theory is needed
+\item
+  How to align \(\theta\) is a question
+\item
+  If a complete copy of SM exists, QCD' IS the gauge theory
+\end{itemize}
+
+\begin{textblock}{3}(6,6)
+\fontsize{10pt}{0pt}\selectfont Rubakov, 1997
+\end{textblock}
+
+\end{frame}
+
+\begin{frame}{So, what did we do?}
+
+\begin{itemize}
+\tightlist
+\item
+  We make a concrete model
+
+  \begin{itemize}
+  \tightlist
+  \item
+    compatible w/ cosmology
+  \end{itemize}
+\item
+  We study an LHC signal
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Discremenation b/w \(\gamma\)-jet and \(\gamma\)
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\end{document}

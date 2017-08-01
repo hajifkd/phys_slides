@@ -2,6 +2,8 @@
 \usepackage{cancel}
 \usepackage{tikz}
 \usepackage{amsmath,amssymb}
+\usepackage{luatexja}
+\hypersetup{unicode=true}
 \usefonttheme{professionalfonts}\usepackage{txfonts}
 \usetikzlibrary{matrix,positioning,calc}
 \usetikzlibrary{decorations.pathmorphing}
