@@ -1,0 +1,14 @@
+\usepackage[overlay,absolute]{textpos}
+\usepackage[colorgrid,gridunit=pt,texcoord]{eso-pic}
+\usepackage{cancel}
+\usepackage{tikz}
+\usepackage{slashed}
+\usepackage{amsmath,amssymb}
+\usefonttheme{professionalfonts}\usepackage{txfonts}
+\usetikzlibrary{matrix,positioning,calc}
+\usetikzlibrary{decorations.pathmorphing}
+\tikzset{snake it/.style={
+decoration={snake, 
+  amplitude = 4mm,
+  segment length = 8mm,
+  post length=0mm},decorate}}
