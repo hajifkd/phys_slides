@@ -21,7 +21,7 @@ institute: Kavli IPMU, U. Tokyo
 ## Outline
 * What is and why the disappearing track search?
 * How can we improve the sensitivity?
-* What is and how can we reduce the background?
+* How can we reduce the background?
 
 # What is and why the disappearing track search?
 
@@ -41,6 +41,7 @@ institute: Kavli IPMU, U. Tokyo
 * Thermal abundance fixes the mass
     * $1.1\,\text{TeV}$ for Higgsino-like DM
     * $3\,\text{TeV}$ for wino-like DM
+        * (Use them as canonical values)
     * It still sounds within the range of colliders
 
 ## Dark matter @ Colliders
@@ -55,7 +56,7 @@ institute: Kavli IPMU, U. Tokyo
     {\tiny Arkani-Hamed {\it et al.} 15}
 \end{textblock*}
 
-## Another strategy for minimal dark matters
+## Another strategy
 * **Disappearing tracks** from the decay of **charged partners**
 
 ## Take a detailed look at $\text{SU}(2)$ multiplet
@@ -67,12 +68,21 @@ $$
 
 * Charged partners are *always* there
     * Must be heavier then the neutral one
-    * Decayable only to the neutral one $+ X$
-* Where does the mass diff. come from?
+
+## Mass difference and the lifetime
+* No $\text{SU}(2)\times\text{U}(1)$ breakdown, no mass diff.
+    * Mass diff. is much smaller than the thermal mass, $\mathcal O (\text{TeV})$
+* For smaller mass diff., *larger lifetimes* are expected
+    * $c\tau \sim 0.7\,\text{cm} \left(\frac{\Delta m}{350\,\text{MeV}}\right)^{-3}$ for Higgsino
+    * $c\tau \sim 7\,\text{cm} \left(\frac{\Delta m}{160\,\text{MeV}}\right)^{-3}$ for wino
+
+## Disappearing tracks in colliders
+\begin{center}
+\includegraphics[width=6\TPHorizModule]{ATLAS.pdf}
+\end{center}
+* The charged partner goes through the pixel detector
 
 ## Two origin of the mass difference
-* No $\text{SU}(2)\times\text{U}(1)$ breakdown, no mass diff.
-    * Roughly, $\text{mass diff.} \simeq \text{coupling to Higgs}$
 * Mixing with other particles TODO not eff op but the interaction itself?
     * Dimension $5$ op. for Higgsino $(H\tilde{h})^2/\Lambda$
     * Dimension $7$ op. for wino $(H\tilde{W}H^\dagger)^2/\Lambda^3$
@@ -88,6 +98,7 @@ $$
 * This highly depends on UV phisics; *e.g.*
     * For Higgsino - bino or wino-like particle
     * For wino - Higgsino-like particle
-* The additional particles *enhance* the coupling to Higgs and thus **to SM particles**
-    * Generally speaking, if the mass diff. is large enough, $\sigma_\text{SI}$ is larger than the $\nu$-floor
+* Roughly, $\text{mass diff.} \simeq \text{coupling to Higgs}$
+    * The additional particles *enhance* the coupling to Higgs and thus **to SM particles**
+    * If the mass diff. is large enough, $\sigma_\text{SI}$ is larger than the $\nu$-floor
 * As a first 
