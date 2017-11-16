@@ -20,7 +20,7 @@ institute: Kavli IPMU, U. Tokyo
 
 ## Outline
 * What is and why the disappearing track search?
-*How heavy mass can we reach?
+* How heavy mass can we reach?
 * How can we reduce the background?
 
 # What is and why the disappearing track search?
@@ -30,18 +30,18 @@ institute: Kavli IPMU, U. Tokyo
 * Neutral component must be there
     * This fixes $\text{U}(1)_Y$ charge
 
-|                   | $\tilde h$ | $\tilde W$ |     | ... |
-|:-----------------:|:----------:|:----------:|:---:|:---:|
-| $\text{SU}(2)_L$  | $2$        | $3$        | $3$ | ... |
-| $\text{U}(1)_Y$   | $1/2$      | $0$        | $1$ | ... |
+|                   | $\tilde h$ | $\tilde W$ |     |     |     | ... |
+|:-----------------:|:----------:|:----------:|:---:|:---:|:---:|:---:|
+| $\text{SU}(2)_L$  | $2$        | $3$        | $3$ | $4$ | $5$ | ... |
+| $\text{U}(1)_Y$   | $1/2$      | $0$        | $1$ | ... | ... | ... |
 
-* As an example, consider Higgsino($\tilde h$)-like and wino($\tilde W$)-like DM
+* As an example, consider Higgsino($\tilde h$)-like DM
+    * Same goes for wino-like and other DM 
 
 ## Dark matter mass
 * Thermal abundance fixes the mass
     * $1.1\,\text{TeV}$ for Higgsino-like DM
-    * $3\,\text{TeV}$ for wino-like DM
-        * (Use them as canonical values)
+        * (Use this as canonical values)
     * It still sounds within the range of colliders
 
 ## Dark matter @ Colliders
@@ -62,8 +62,6 @@ institute: Kavli IPMU, U. Tokyo
 ## Take a detailed look at $\text{SU}(2)$ multiplet
 $$
 \tilde{h} = \begin{pmatrix}\tilde{h}^0 \\ \tilde{h}^+\end{pmatrix}
-\text{ or }
-\tilde{W} = \begin{pmatrix}\tilde{W}^- \\ \tilde{W}^0 \\ \tilde{W}^+\end{pmatrix}
 $$
 
 * Charged partners are *always* there
@@ -74,7 +72,6 @@ $$
     * Mass diff. is much smaller than the thermal mass
 * For smaller mass diff., *larger lifetimes* are expected
     * $c\tau(\chi^+\to\chi^0\pi^+) \sim 0.7\,\text{cm} \left(\frac{\Delta m}{350\,\text{MeV}}\right)^{-5}$ for Higgsino
-    * $c\tau(\chi^+\to\chi^0\pi^+) \sim 7\,\text{cm} \left(\frac{\Delta m}{160\,\text{MeV}}\right)^{-3}$ for wino
 * I'll discuss the canonical value for $\Delta m$ later
 
 ## Disappearing tracks in colliders
@@ -88,42 +85,31 @@ $$
 * Mixing with other particles
 * Radiative correction $\Delta m \sim \frac{\alpha}{4\pi} v_\text{EW}$
     * $350\,\text{MeV}$ for Higgsino
-    * $160\,\text{MeV}$ for wino
-
-\begin{textblock*}{0.4\linewidth}(200pt, 175pt)
-    {\tiny Yamada 10, Ibe, Matsumoto, Sato 15}
-\end{textblock*}
 
 ## Mixing with other particles
 * This highly depends on UV phisics; *e.g.*
     * For Higgsino - bino or wino-like particle
-    * For wino - Higgsino-like particle
 * Roughly, $\text{mass diff.} \simeq \text{coupling to Higgs}$
     * The additional particles enhance the coupling to Higgs and thus **to SM particles**
     * If the mass diff. is large enough, direct detection cross section is larger than the $\nu$-floor
 
- \begin{textblock*}{0.4\linewidth}(220pt, 225pt)
+ \begin{textblock*}{0.4\linewidth}(220pt, 215pt)
     {\tiny HF, Nagata, Otono, Shirai 17}
 \end{textblock*}
 
 ## Setup for disappearing track serach
 * Assume only radiative mass difference;
     * $c\tau(\chi^+\to\chi^0\pi^+) \sim 0.7\,\text{cm}$ for Higgsino
-    * $c\tau(\chi^+\to\chi^0\pi^+) \sim 7\,\text{cm}$ for wino
     * (Such "decoupling" DM models are also theoretically motivated)
-* Then, ask how far we can see?
+* Then, ask how far we can see.
 
 # How heavy mass can we reach?
 
 ## Conventional study
-* current ATLAS/CMS
-
-## Conventional study
 \begin{center}
-\includegraphics[width=151pt]{conv_disap_higgsino.pdf}
-\includegraphics[width=148pt]{conv_disap_wino.pdf}
+\includegraphics[width=220pt]{conv_disap_higgsino.pdf}
 \end{center}
-\begin{textblock*}{0.4\linewidth}(200pt, 170pt)
+\begin{textblock*}{0.4\linewidth}(250pt, 200pt)
     {\tiny Arkani-Hamed {\it et al.} 15}
 \end{textblock*}
 
@@ -131,18 +117,76 @@ $$
 * Do we really need $100\,\text{TeV}$ or more?
 
 ## What limits the sensitivity?
-* Numerous Higgsinos/winos are *there*
-* We can *not* see enough disappearing tracks
+* Numerous Higgsinos are *there*
+* Just we can *not* see enough disappearing tracks
 * Why? -  Matter of analysis/tracker
 
 ## Look inside the tracker
+\footnotesize
+\begin{center}
+\begin{tikzpicture}[remember picture,overlay]
+\draw [anchor=west] (2.1, 1.5) node {$r=12\,\text{cm}$};
+\draw [teal, ultra thick] (-2, 1.5) -- (2, 1.5);
+\draw [anchor=west] (2.1, 0.5) node {$r=9\,\text{cm}$};
+\draw [teal, ultra thick] (-2, 0.5) -- (2, 0.5);
+\draw [anchor=west] (2.1, -0.83) node {$r=5\,\text{cm}$};
+\draw [teal, ultra thick] (-2,-0.83) -- (2, -0.83);
+\draw [anchor=west] (2.1, -1.5) node {$r=3\,\text{cm}$};
+\draw [teal, ultra thick] (-2, -1.5) -- (2, -1.5);
+\draw [anchor=west] (4.1, -2.5) node {$r=0\,\text{cm}$};
+\draw [dashed, ultra thick] (-4, -2.5) -- (4, -2.5);
+
+
+\draw [orange, thick] (0, -2.5) -- (-1.8, 2) arc (atan(0.4) + 180:90:0.5);
+\draw [->, orange, thick] (-1.3, 2.5 + 0.186) -- (-1.29, 2.5 + 0.186);
+\draw [->, gray, thick, dashed] (-1.8, 2) -- (-2.2, 3);
+
+\draw [red, thick] (-0.2, -2.7) -- (0.2, -2.3);
+\draw [red, thick] (0.2, -2.7) -- (-0.2, -2.3);
+
+\fill [blue] (-0.4, -1.5) circle (0.1);
+\fill [blue] (-0.67, -0.83) circle (0.1);
+\fill [blue] (-1.2, 0.5) circle (0.1);
+\fill [blue] (-1.6, 1.5) circle (0.1);
+
+\draw [anchor=west] (-4.9, 2.1) node {$r$\,(cm)};
+\draw [->, black, ultra thick] (-5, -3) -- (-5, 2.5);
+\end{tikzpicture}
+\end{center}
 
 ## Improvement to $2$-point search
+\footnotesize
+\begin{center}
+\begin{tikzpicture}[remember picture,overlay]
+\draw [teal, ultra thick] (-2, 1.5) -- (2, 1.5);
+\draw [teal, ultra thick] (-2, 0.5) -- (2, 0.5);
+\draw [teal, ultra thick] (-2,-0.83) -- (2, -0.83);
+\draw [teal, ultra thick] (-2, -1.5) -- (2, -1.5);
+\draw [dashed, ultra thick] (-4, -2.5) -- (4, -2.5);
+
+\draw [anchor=north] (0, -2.5) node [text width=160] {\begin{itemize}\item Interacting point is determined by the other jet activities\end{itemize}};
+\draw [anchor=west] (-1.4, 0) node [text width=160] {\begin{itemize}\item $3$ points in total is enough!\end{itemize}};
+
+\draw [orange, thick] (0, -2.5) -- (-0.8, -0.5) arc (atan(0.4) + 180:90:0.5);
+\draw [->, orange, thick] (-0.3, 0.186) -- (-0.29, 0.186);
+\draw [->, gray, thick, dashed] (-0.8, -0.5) -- (-2.2, 3);
+
+\draw [->, green, thick] (0, -2.5) -- (2.5, -0.5);
+\draw [->, green, thick] (0, -2.5) -- (-1.8, -1);
+
+\draw [red, thick] (-0.2, -2.7) -- (0.2, -2.3);
+\draw [red, thick] (0.2, -2.7) -- (-0.2, -2.3);
+
+\fill [blue] (-0.4, -1.5) circle (0.1);
+\fill [blue] (-0.67, -0.83) circle (0.1);
+\draw [blue, thick] (-1.2, 0.5) circle (0.1);
+\draw [blue, thick] (-1.6, 1.5) circle (0.1);
+\end{tikzpicture}
+\end{center}
 
 ## Result
 \begin{center}
-\includegraphics[width=150pt]{higgsino.pdf}
-\includegraphics[width=150pt]{wino.pdf}
+\includegraphics[width=250pt]{higgsino.pdf}
 \end{center}
 
 # How can we reduce the background?
