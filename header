@@ -1,6 +1,8 @@
 \usepackage[overlay,absolute]{textpos}
+\usepackage[colorgrid,gridunit=pt,texcoord]{eso-pic}
 \usepackage{cancel}
 \usepackage{tikz}
+\usepackage{slashed}
 \usepackage{amsmath,amssymb}
 \usefonttheme{professionalfonts}\usepackage{txfonts}
 \usetikzlibrary{matrix,positioning,calc}
