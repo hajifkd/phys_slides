@@ -200,8 +200,52 @@ $$
 * **Fake disappearing tracks**
 
 ## Fake disappearing tracks
+\footnotesize
+\begin{center}
+\begin{tikzpicture}[remember picture,overlay]
+\draw [teal, ultra thick] (-2, 1.67) -- (2, 1.67);
+\draw [teal, ultra thick] (-2, 0) -- (2, 0);
+\draw [dashed, ultra thick] (-4, -2.5) -- (4, -2.5);
+
+\draw [->, orange, thick] (1, -2.5) arc (210:120:4);
+\draw [->, orange, thick] (-1, -2.5) arc (180:140:8.087);
+\draw [->, gray, thick, dashed] (1, -2.5) -- (0.159124,1.67);
+
+\draw [red, thick] (1-0.2, -2.7) -- (1.2, -2.3);
+\draw [red, thick] (1.2, -2.7) -- (1-0.2, -2.3);
+
+\draw [red, thick] (-1-0.2, -2.7) -- (-1 + 0.2, -2.3);
+\draw [red, thick] (-1 + 0.2, -2.7) -- (-1-0.2, -2.3);
+
+\fill [blue] (0.49547, 0) circle (0.1);
+\draw [blue, thick] (1.101728, 1.67) circle (0.1);
+\fill [blue] (0.159124,1.67) circle (0.1);
+\end{tikzpicture}
+\end{center}
 
 ## Reduce them by additional points
+\footnotesize
+\begin{center}
+\begin{tikzpicture}[remember picture,overlay]
+\draw [teal, ultra thick] (-2, 1.67) -- (2, 1.67);
+\draw [teal, ultra thick] (-2, 0) -- (2, 0);
+\draw [dashed, ultra thick] (-4, -2.5) -- (4, -2.5);
+
+\draw [->, orange, thick] (1, -2.5) arc (210:120:4);
+\draw [->, orange, thick] (-1, -2.5) arc (180:140:8.087);
+\draw [->, gray, thick, dashed] (1, -2.5) -- (0.159124,1.67);
+
+\draw [red, thick] (1-0.2, -2.7) -- (1.2, -2.3);
+\draw [red, thick] (1.2, -2.7) -- (1-0.2, -2.3);
+
+\draw [red, thick] (-1-0.2, -2.7) -- (-1 + 0.2, -2.3);
+\draw [red, thick] (-1 + 0.2, -2.7) -- (-1-0.2, -2.3);
+
+\fill [blue] (0.49547, 0) circle (0.1);
+\draw [red, thick] (1.101728, 1.67) circle (0.1);
+\fill [blue] (0.159124,1.67) circle (0.1);
+\end{tikzpicture}
+\end{center}
 \begin{textblock*}{0.4\linewidth}(240pt, 250pt)
     {\tiny HF, Nagata, Otono, Shirai in prep}
 \end{textblock*}
