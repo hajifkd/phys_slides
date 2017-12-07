@@ -71,8 +71,7 @@ $$
 * No $\text{SU}(2)\times\text{U}(1)$ breakdown, no mass diff.
     * Mass diff. is much smaller than the thermal mass
 * For smaller mass diff., *larger lifetimes* are expected
-    * $c\tau(\chi^+\to\chi^0\pi^+) \sim 0.7\,\text{cm} \left(\frac{\Delta m}{350\,\text{MeV}}\right)^{-5}$ for Higgsino
-* I'll discuss the canonical value for $\Delta m$ later
+    * $c\tau(\chi^+\to\chi^0\pi^+) \sim 0.7\,\text{cm} \left(\frac{\Delta m}{350\,\text{MeV}}\right)^{-3}$ for Higgsino
 
 ## Disappearing tracks in colliders
 \begin{center}
@@ -97,7 +96,7 @@ $$
     {\tiny HF, Nagata, Otono, Shirai 17}
 \end{textblock*}
 
-## Setup for disappearing track serach
+## Setup for disappearing track search
 * Assume only radiative mass difference;
     * $c\tau(\chi^+\to\chi^0\pi^+) \sim 0.7\,\text{cm}$ for Higgsino
     * (Such "decoupling" DM models are also theoretically motivated)
@@ -254,5 +253,5 @@ $$
 ## Summary
 * Disappearing track is essential for the minimal dark matter search
 * We need to
-    * not only increase the energy but also improve trackers
+    * not only increase the energy but also **improve trackers and analysis**
     * estimate and reduce the background
