@@ -1,6 +1,6 @@
 % Collider search for minimal dark matter \small 1703.09675, in preparation
 % \underline{Hajime Fukuda}, N. Nagata, H.Otono and S. Shirai
-% \today
+% 2018 July 26
 ---
 institute: Kavli IPMU, U. Tokyo
 # pandoc -t beamer -V theme:metropolis -V fontsize:14pt -o presentation.pdf presentation.md -H ../header
@@ -12,22 +12,17 @@ institute: Kavli IPMU, U. Tokyo
     * Small interaction b/w SM particles
 * The "minimal" candidate $\to$ minimal DM
 
-\begin{textblock*}{0.4\linewidth}(250pt, 160pt)
+\begin{textblock*}{0.4\linewidth}(250pt, 175pt)
     {\tiny Cirelli {\it et al.} 05}
 \end{textblock*}
 
-
 ## Minimal Dark Matter
-* Fermionic particle with SU$(2)$ and U$(1)$ charge
-* Abundance
-    * WIMP miracle
-* Automatically stable 
-    * like $R$-parity in SUSY; or
-    * due to the SU$(2)$ repr
+* Particle with SU$(2)$ and U$(1)$ charge
+* Abundance: WIMP miracle
+* Automatically stable for higher SU$(2)$ repr.
+* Neutral one is weakly interacting
 
-## DM charge and Mass
-
-* Sommerfeld enhancement makes DM heavier
+## DM Charge and Mass
 
 | SU$(2)$ | U$(1)$ | mass |
 |:-------:|:------:|:----:|
@@ -36,9 +31,9 @@ institute: Kavli IPMU, U. Tokyo
 | $\cdots$ | | |
 | 5 | 0 | 9.4 TeV|
 
-* We focus on the 5-plet in this talk
+* We focus on the Fermionic 5-plet in this talk
 
-\begin{textblock*}{0.4\linewidth}(210pt, 185pt)
+\begin{textblock*}{0.4\linewidth}(210pt, 155pt)
     {\tiny Cirelli {\it et al.} 15}
 \end{textblock*}
 
@@ -47,91 +42,84 @@ institute: Kavli IPMU, U. Tokyo
 * Then, how do we detect it?
     * Indirect detection
     * Direct detection
-        * $\sigma_{SI} \sim 1.3 \times 10^{-45}\,\text{cm}^2$
     * **Collider experiments**
 
-## Dark matter @ Colliders
-* Common strategy: $\slashed{E}_T + j$
-* Poorer than the thermal mass even for $100\,\text{TeV}$
-
-<!--
-\begin{center}
-\includegraphics[width=200pt]{higgsino_exp.pdf}
-\end{center}
--->
-
-\begin{textblock*}{0.4\linewidth}(250pt, 235pt)
-    {\tiny Arkani-Hamed {\it et al.} 15}
-\end{textblock*}
-
-## Specific strategy
+## Search Strategy
+* $\slashed{E}_T + j$: $\sim 3\text{TeV}$ for $100\,\text{TeV}$ collider $\text{\tiny Ismail {\it et al.} 16}$
 * **Disappearing tracks** from the decay of **charged partners**
 
-## Take a detailed look at $\text{SU}(2)$ multiplet
+## Charged Partner in the $\text{SU}(2)$ Multiplet
+* After EWSB, the 5-plet $\chi$ becomes
 $$
-\tilde{h} = \begin{pmatrix}\tilde{h}^0 \\ \tilde{h}^+\end{pmatrix}
+\chi = (\chi^{2+}\ \chi^{+}\ \chi^0\ \chi^{-}\ \chi^{2-})
 $$
 
-* Charged partners are *always* there
-    * Must be heavier then the neutral one
+* We have charged Dirac Fermions as the dark matter partner
 
-## Mass difference and the lifetime
-* No $\text{SU}(2)\times\text{U}(1)$ breakdown, no mass diff.
-    * Mass diff. is much smaller than the thermal mass
-* For smaller mass diff., *larger lifetimes* are expected
-    * $c\tau(\chi^+\to\chi^0\pi^+) \sim 0.7\,\text{cm} \left(\frac{\Delta m}{350\,\text{MeV}}\right)^{-3}$ for Higgsino
+## Mass Difference
+* The radiative correction makes charged partners heavier
+* Without EWSB, there's no mass difference
+    * **Higgs VEV** $v$ is the typical scale
+* $\Delta M \simeq Q^2 \alpha_2 M_W \sin^2\frac{\theta_W}2 \simeq Q^2 166\,\text{MeV} \ll M_\chi$
 
-## Disappearing tracks in colliders
-<!--
-\begin{center}
-\includegraphics[width=280pt]{ATLAS.pdf}
-\end{center}
--->
-* A charged partner decays inside the tracker region $\to$ *Disappearing* track
+## Decay Mode and the Lifetime
+* The Main decay mode is $\chi^{Q+1} \to \chi^{Q} \pi^+$
+    * Width: $\Gamma \sim {G_F}^2 {f_\pi}^2 \Delta m^3$
+* The lifetimes are macroscopic!
+    * $\tau(\chi^{2+}) \sim 1\,\text{mm}$
+    * $\tau(\chi^{+}) \sim 1.7\,\text{cm}$
+
+
+## $\chi^{+}$ Track in the Collider
+* In ATLAS, the pixel detector begins at 3 cm.
+    * $\chi^{+}$ may leave the disappearing track!
     * The $p_T$ of $\pi^\pm$ is not large enough to reconstruct its track
+    * $\chi^{2+}$ lifetime is too short for the tracker
+        * Due to the small $\Delta m$, it doesn't look as a displaced vertex
 
-\begin{textblock*}{0.4\linewidth}(240pt, 180pt)
-    {\tiny ATLAS collabolation, arXiv:1110.6191}
-\end{textblock*}
-
-## Two origin of the mass difference
-* Radiative correction $\Delta m \sim \frac{\alpha}{4\pi} v_\text{EW}$
-    * $350\,\text{MeV}$ for Higgsino
-* Mixing with other particles
-
-## Mixing with other particles
-* For Higgsino: bino or wino-like particle
-* Roughly, $\text{mass diff.} \simeq \text{coupling to Higgs}$
-    * The larger the diff. is, the larger the couplings **to SM particles** are
-    * If the mass diff. is large enough, direct detection cross section is larger than the $\nu$-floor
-
- \begin{textblock*}{0.4\linewidth}(220pt, 200pt)
-    {\tiny HF, Nagata, Otono, Shirai 17}
-\end{textblock*}
-
-## Setup for disappearing track search
-* Assume only radiative mass difference;
-    * $c\tau(\chi^+\to\chi^0\pi^+) \sim 0.7\,\text{cm}$ for Higgsino
-    * (Such "decoupling" DM models are also theoretically motivated like split-type SUSY)
-
-## Conventional study
 <!--
-\begin{center}
-\includegraphics[width=220pt]{conv_disap_higgsino.pdf}
-\end{center}
+## Track of Doubly Charged Partner
+* $\chi^{2+}$ lifetime is too short for the tracker
+* Looks like a displaced vertex?
+* No - due to the small $\Delta m$
 -->
-\begin{textblock*}{0.4\linewidth}(250pt, 200pt)
-    {\tiny Arkani-Hamed {\it et al.} 15}
+
+## Setup for Disappearing Track Search
+* $\chi^{2+}$ decay is almost instantaneously
+* $c\tau(\chi^+\to\chi^0\pi^+) \sim 2\,\text{cm}$
+    * Count how many disappearing tracks appear
+
+<!--
+## What limits the sensitivity?
+* How many disappering track can we see?
+* How large is the number of the background?
+
+-->
+
+## Number of Signals
+* Production cross section for 13 TeV:
+
+\begin{center}
+\includegraphics[width=140pt]{xs.pdf}
+\end{center}
+
+* Not so small
+* Acceptance rate?
+
+## Cut and Acceptance Rate
+* MET cut
+* Jet PT cut
+* Geometrical cut on $\eta$
+* Isolation
+    * Acceptance: $\mathcal O(\%)$
+* **Disappearing condition**
+    * $\exp(-L / c\tau\gamma\beta_T)$
+
+\begin{textblock*}{0.4\linewidth}(200pt, 130pt)
+    {\tiny ATLAS Collaboration, arXiv:1712.02118}
 \end{textblock*}
 
-* For Higgsino, even $100\,\text{TeV}$ is still not enough!
-
-## What limits the sensitivity?
-* Numerous Higgsinos are *there*
-* Just we can *not* see enough disappearing tracks
-* Why? -  Matter of analysis/tracker
-
-## Look inside the tracker
+## Look Inside the Tracker
 \footnotesize
 \begin{center}
 \begin{tikzpicture}[remember picture,overlay]
@@ -164,7 +152,7 @@ $$
 \end{tikzpicture}
 \end{center}
 
-## Improvement to $2$-point search
+## Improvement to $2$-point Search
 \footnotesize
 \begin{center}
 \begin{tikzpicture}[remember picture,overlay]
@@ -198,81 +186,39 @@ $$
 \end{tikzpicture}
 \end{center}
 
+\begin{textblock*}{0.4\linewidth}(210pt, 200pt)
+    {\tiny HF, Nagata, Otono, Shirai 1703.09675}
+\end{textblock*}
+
 ## Result
-<!--
 \begin{center}
-\includegraphics[width=250pt]{higgsino.pdf}
+\includegraphics[width=200pt]{constraint.pdf}
 \end{center}
--->
 
 ## Conclusions
-* Disappearing track is essential for the DM and **SUSY** search
+* Disappearing track is important for minimal DM search
+    * Including SUSY LSP like pure wino or higgsino
 * We need to not only increase the energy but also **improve trackers and analysis**
-* BG estimation & reduction is very important
-
-\begin{textblock*}{0.4\linewidth}(240pt, 200pt)
-    {\tiny HF, Nagata, Otono, Shirai in prep}
-\end{textblock*}
+* BG estimation & reduction is needed
 
 # Backup
 
-## What is the background
+## What is the Background?
 * Misidentification of kink tracks
     * Does not change much for 2-pt strategy 
     * Also, the displaced vertex analysis can be used
 * **Fake disappearing tracks**
 
-\begin{textblock*}{0.4\linewidth}(250pt, 200pt)
-    {\tiny ATLAS-CONF-2017-017}
+\begin{textblock*}{0.4\linewidth}(220pt, 180pt)
+    {\tiny ATLAS Collaboration, arXiv:1712.02118}
 \end{textblock*}
 
-## Fake disappearing tracks
-\footnotesize
+## Higgsino
 \begin{center}
-\begin{tikzpicture}[remember picture,overlay]
-\draw [teal, ultra thick] (-2, 1.67) -- (2, 1.67);
-\draw [teal, ultra thick] (-2, 0) -- (2, 0);
-\draw [dashed, ultra thick] (-4, -2.5) -- (4, -2.5);
-
-\draw [->, orange, thick] (1, -2.5) arc (210:120:4);
-\draw [->, orange, thick] (-1, -2.5) arc (180:140:8.087);
-\draw [->, gray, thick, dashed] (1, -2.5) -- (0.159124,1.67);
-
-\draw [red, thick] (1-0.2, -2.7) -- (1.2, -2.3);
-\draw [red, thick] (1.2, -2.7) -- (1-0.2, -2.3);
-
-\draw [red, thick] (-1-0.2, -2.7) -- (-1 + 0.2, -2.3);
-\draw [red, thick] (-1 + 0.2, -2.7) -- (-1-0.2, -2.3);
-
-\fill [blue] (0.49547, 0) circle (0.1);
-\draw [blue, thick] (1.101728, 1.67) circle (0.1);
-\fill [blue] (0.159124,1.67) circle (0.1);
-\end{tikzpicture}
+\includegraphics[width=250pt]{higgsino.pdf}
 \end{center}
 
-## Reduce them by additional points
-\footnotesize
+## Wino
 \begin{center}
-\begin{tikzpicture}[remember picture,overlay]
-\draw [teal, ultra thick] (-2, 1.67) -- (2, 1.67);
-\draw [teal, ultra thick] (-2, 0) -- (2, 0);
-\draw [dashed, ultra thick] (-4, -2.5) -- (4, -2.5);
-
-\draw [->, orange, thick] (1, -2.5) arc (210:120:4);
-\draw [->, orange, thick] (-1, -2.5) arc (180:140:8.087);
-\draw [->, gray, thick, dashed] (1, -2.5) -- (0.159124,1.67);
-
-\draw [red, thick] (1-0.2, -2.7) -- (1.2, -2.3);
-\draw [red, thick] (1.2, -2.7) -- (1-0.2, -2.3);
-
-\draw [red, thick] (-1-0.2, -2.7) -- (-1 + 0.2, -2.3);
-\draw [red, thick] (-1 + 0.2, -2.7) -- (-1-0.2, -2.3);
-
-\fill [blue] (0.49547, 0) circle (0.1);
-\draw [red, thick] (1.101728, 1.67) circle (0.1);
-\fill [blue] (0.159124,1.67) circle (0.1);
-\end{tikzpicture}
+\includegraphics[width=250pt]{wino.pdf}
 \end{center}
-\begin{textblock*}{0.4\linewidth}(240pt, 250pt)
-    {\tiny HF, Nagata, Otono, Shirai in prep}
-\end{textblock*}
