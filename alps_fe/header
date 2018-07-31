@@ -1,5 +1,4 @@
 \usepackage[overlay,absolute]{textpos}
-% \usepackage[colorgrid,gridunit=pt,texcoord]{eso-pic}
 \usepackage{cancel}
 \usepackage{tikz}
 \usepackage{slashed}
@@ -12,8 +11,3 @@ decoration={snake,
   amplitude = 4mm,
   segment length = 8mm,
   post length=0mm},decorate}}
-\TPGrid[10 mm,8 mm]{9}{8}
-
-\makeatletter
-\let\@@magyar@captionfix\relax
-\makeatother
